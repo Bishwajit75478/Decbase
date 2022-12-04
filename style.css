@@ -95,7 +95,13 @@ h4{
     color: transparent;
     background-size: cover;
 }
+.design img {
+    height: 100px;
+}
+
+
 /*  header area css */
+
 .header-area{
     padding: 30px 0;
 }
@@ -120,12 +126,9 @@ h4{
     border-radius: 15px 0;
     padding: 10px 20px;
 }
-
 /* main area css */
+/* hero-area css*/
 
-/* 
-hero-area css
-*/
 .hero-area{
 padding: 70px 0;
 }
@@ -195,15 +198,17 @@ padding: 70px 0;
 .service-text p{
     margin-bottom: 0;
 }
+
 /* about area css */
 .about-area{
     padding: 100px 0;
 }
+
 /* succes-area css */
 
 .succes-area{
-padding: 100px 0;
-position: relative;
+    padding: 100px 0;
+    position: relative;
 }
 .succes-area .theme-button{
     margin-top: 35px;
@@ -277,7 +282,9 @@ position: relative;
 .sepcial{
     margin-top: 100px;
 }
+
 /* testimonial-area css */
+
 .testimonial-area{
     padding: 100px 0;
     position: relative;
@@ -354,6 +361,7 @@ position: relative;
 .testimonial-area .owl-next{
     margin-left: 15px;
 }
+
 /* blog area css */
 
 .blog-area{
@@ -371,10 +379,10 @@ position: relative;
     padding: 180px 0;
 }
 .singup-text h3{
-font-size: 48px;
-margin-bottom: 22PX;
-padding-bottom: 22PX;
-position: relative;
+    font-size: 48px;
+    margin-bottom: 22PX;
+    padding-bottom: 22PX;
+    position: relative;
 }
 .singup-text h3::after{
     position:absolute;
@@ -390,11 +398,11 @@ position: relative;
     margin-bottom: 45PX;
 }
 .singnup-area .form-control{
-background-color: #EEEEEE;
-border: none;
-font-size: 20px;
-border-radius: 20px 0 0 0;
-padding: 10px 15px;
+    background-color: #EEEEEE;
+    border: none;
+    font-size: 20px;
+    border-radius: 20px 0 0 0;
+    padding: 10px 15px;
 }
 .singnup-area button{
     border: none;
@@ -404,7 +412,7 @@ padding: 10px 15px;
     border-radius: 0 0 20PX 0;
 }
 .singnup-area button:hover{
-background-color: #CAA892;
+    background-color: #CAA892;
 }
 /* footer area css */
 
@@ -430,7 +438,7 @@ margin-bottom: 15px;
     padding: 0;
 }
 .footer-link ul li{
-list-style: none;
+    list-style: none;
 }
 .footer-link ul li a{
     display: inline-block;
@@ -468,13 +476,166 @@ list-style: none;
     border-top: 1px solid #C4C4C4;
 }
 .footer-bottom-text a{
-text-decoration: none;
-color: #646464;
+    text-decoration: none;
+    color: #0d1493;
 }
 .design {
     position: absolute;
     top: -50px;
 }
-.design img {
-    height: 120px;
+
+/* header area css */
+@media (max-width: 991px){
+.navbar-toggler{
+    border: none;
+    box-shadow: none;
+}
+.header-area .nav-item {
+    margin-left: 0;
+}
+.header-area .nav-item {
+    text-align: center;
+} 
+.header-area .nav-item:last-child{
+    margin-left: 0;
+}
+/* header area  responsive css end */
+
+/* main area */
+/* hero area responsive css */
+.hero-area{
+    padding-top: 30px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+.hero-text a{
+    margin-bottom: 30px;
+}
+/* hero area responsive  css end */
+
+/* service area responsive  css */
+.service-area{
+    padding: 70px 0;
+    text-align: center;
+}
+.service-area .owl-nav{
+    top: -20px;
+}
+.all-service{
+    margin-top: 20px;
+}
+
+/* servce area responsive css end */
+
+/* about area responsive  css */
+.about-area{
+    padding: 70px 0;
+    text-align: center;
+}
+.about-img {
+    margin-bottom: 30px;
+}
+.about-text{
+    padding-left: 0 !important;
+}
+/* about area responsive  css end */
+
+/* succes area responsive  css */
+.succes-area{
+    padding: 70px 0;
+    text-align: center;
+}
+.succes-text{
+    padding-right: 0 !important;
+    margin-bottom: 30px;
+}
+/* sucess area responsive  end */
+
+/* work area responsive  css */
+.work-area{
+    padding: 70px 0;
+}
+
+.all-work{
+    position: relative;
+    padding: 300px 0;
+    margin-top: 0;
+}
+.single-work-text{
+    background-color: #0d1493;
+}
+
+.single-work-one{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.single-work-two{
+    position: absolute;
+    top: 170px;
+    left: 0;
+}
+.single-work-three{
+    position: absolute;
+    top: 340px;
+    right: 0;
+}
+.single-work-four{
+    position: absolute;
+    left: 0;
+    top: 510px;
+}
+.single-work-text{
+    height: 150px;
+    width: 150px;
+}
+.sepcial{
+    margin-top: 0;
+}
+.single-work-text::after{
+    border: none;
+}
+.single-work-text.sepcial::after{
+    border: none;
+}
+.single-work-two .single-work-text::before{
+    border: none;
+}
+.single-work-three .single-work-text::before{
+    border: none;
+}
+.all-work{
+    position: relative;
+}
+/* work area responsive  css end */
+
+/* testimonial area responsive   css */
+/* testimonila area responsive  end */
+
+/* blog area responsive  css */
+.blog-area{
+    text-align: center;
+    padding: 170px 0;
+}
+.blog-image{
+    padding: 15px;
+}
+/* blog area  responsive css end */
+
+/* singnup area responsive  css */
+.singnup-area{
+    text-align: center;
+}
+/* sngnup area end */
+
+/* main area css end */
+
+/* footer area  responsive css */
+.footer-area{
+    text-align: center;
+}
+.footer-link .social-link li a{
+    align-items: center;
+}
+/* footer area responsive  end */
 }
